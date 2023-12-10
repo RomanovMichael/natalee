@@ -151,6 +151,8 @@
     height: 0;
     overflow: hidden;
     transition: all .3 ease;
+    will-change: height;
+    transform: translate3d(0, 0, 0);
 }
 
 .questions__item-dropdown-inner {
