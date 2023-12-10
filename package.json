@@ -25,9 +25,7 @@
     "vue-scrollto": "^2.20.0",
     "nuxt-gsap-module": "^1.7.2",
     "gsap": "npm:@gsap/shockingly@^3.11.3",
-    "express": "^4.18.2",
-    "validator": "^13.7.0",
-    "nodemailer": "^6.8.0"
+    "express": "^4.18.2"
   },
   "devDependencies": {
 
