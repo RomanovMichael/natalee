@@ -178,7 +178,8 @@
 .full-menu__socials {
     position: absolute;
     left: 1rem;
-    bottom: 5rem;
+    /* bottom: 5rem; */
+    bottom: 0;
 }
 
 .full-menu__socials-item {

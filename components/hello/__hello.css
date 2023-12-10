@@ -380,6 +380,7 @@
     .hello__container {
         min-height: 36rem;
         height: calc(100vh - 15rem);
+        height: calc((var(--vh, 1vh) * 100) - 9rem);
     }
 }
 
