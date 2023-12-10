@@ -93,8 +93,8 @@
 
 @media screen and (max-width: 991px) {  
     .preloader__percents {
-        /* bottom: 6.5rem; */
-        bottom: 0;
+        bottom: 2.5rem;
+        /* bottom: 0; */
     }
 }
 
