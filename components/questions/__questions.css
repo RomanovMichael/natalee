@@ -150,12 +150,14 @@
 .questions__item-dropdown {
     height: 0;
     overflow: hidden;
+    transition: all .3 ease;
 }
 
 .questions__item-dropdown-inner {
     padding-left: 2.5rem;
     padding-right: 2rem;
     padding-bottom: 2.5rem;
+    transition: all .3 ease;
 }
 
 .questions__item.is-open .questions__item-btn:after { 
