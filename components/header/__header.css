@@ -10,9 +10,11 @@
     z-index: 10;
     background-color: transparent;
 }
-/* .header.is-scroll {
+
+.header.is-scroll {
+    transition: all .3s ease;
     background: linear-gradient(180deg,hsla(0,0%,4%,.46),hsla(0,0%,4%,0)),linear-gradient(180deg,hsla(0,0%,4%,.26),hsla(0,0%,4%,0)),linear-gradient(180deg,hsla(0,0%,4%,.025),hsla(0,0%,4%,0)),linear-gradient(180deg,hsla(0,0%,4%,0.01),hsla(0,0%,4%,0)),linear-gradient(180deg,hsla(0,0%,4%,0.0001),hsla(0,0%,4%,0));
-} */
+}
 
 .header.is-scroll-end.is-scroll {
     /* background: transparent; */

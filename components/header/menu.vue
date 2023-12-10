@@ -23,7 +23,7 @@
               <div class="full-menu__section-link" @click="scrollTo('about')">
                 Обо мне
               </div>
-              <div class="full-menu__section-link" @click="scrollTo('prducts')">
+              <div class="full-menu__section-link" @click="scrollTo('products')">
                 Услуги и цены
               </div>
               <div class="full-menu__section-link" @click="scrollTo('FAQ')">

@@ -96,7 +96,7 @@
     .about__content  {
         flex-direction: column;
         align-items: stretch;
-
+        gap: 1.5rem;
     }
 
     .about__image-wrap {
@@ -115,5 +115,6 @@
     .about__marquee .ticker__item {
         font-size: 6.5rem;
         line-height: 7rem;
+        padding: 0 1.125rem;
     }
 }
