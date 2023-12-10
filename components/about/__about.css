@@ -1,0 +1,119 @@
+.about {
+    /* padding-bottom: 8.5rem; */
+    position: relative;
+}
+
+.about__section-title {
+    /* margin-left: 10rem; */
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--color__white);
+    text-transform: uppercase;
+    /* margin-top: 2rem; */
+}
+
+.about__container {
+    /* padding-top: 7.5rem; */
+    padding-bottom: 8.5rem;
+}
+
+.about__image-wrap {
+    overflow: hidden;
+    position: relative;
+    /* left: 50%; */
+    /* top: 0; */
+    /* transform: translateX(-50%); */
+    width: 45.8125rem;
+    border-radius: 3.3125rem;
+}
+
+.about__image {
+    background-color: transparent;
+    padding-bottom: 100%;
+}
+
+.about__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__marquee {
+    position: absolute;
+    bottom: -1rem;
+    width: 100%;
+    color: var(--color__white);
+    flex-wrap: nowrap;
+    transform: translate3d(0, 0, 0);
+}
+
+.ticker {
+    overflow: hidden;
+}
+
+.ticker__wrapper {
+    display: flex;
+}
+
+.ticker__item {
+    font-size: 14.5rem;
+    line-height: 14.5rem;
+    letter-spacing: -0.05em;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 0 3.125rem;
+    animation: ticker 10s linear infinite;
+    text-transform: uppercase;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateZ(0);
+    }
+
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.about__text-wrap {
+    /* max-width: 45.8125rem; */
+    max-width: 35rem;
+}
+
+.about__text {
+    color: var(--color__white);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* font-weight: 500; */
+}
+
+@media screen and (max-width:991px) {
+
+    .about__content  {
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+
+    .about__image-wrap {
+        border-radius: 1.5rem;
+        width: 100%;
+    }
+
+    .about__text-wrap {
+        max-width: 100%;
+    }
+
+    .about__marquee {
+        bottom: 4rem;
+    }
+
+    .about__marquee .ticker__item {
+        font-size: 6.5rem;
+        line-height: 7rem;
+    }
+}

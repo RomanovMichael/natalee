@@ -1,0 +1,14 @@
+.page-head__blur {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 78.5rem;
+    height: auto;
+    transform: translateY(-15%);
+    pointer-events: none;
+}
+
+.page-head__blur svg {
+    width: 100%;
+    height: 100%;
+}

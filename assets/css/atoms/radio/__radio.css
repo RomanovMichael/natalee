@@ -1,0 +1,14 @@
+.checkbox input:checked + * > .checkbox__trigger.--radio {
+    background-size: .75rem;
+    background-position: center;
+}
+
+.checkbox__trigger.--radio {
+    border-radius: 1.5rem;
+}
+
+.checkbox input:disabled + * > .checkbox__trigger.--radio {}
+
+.checkbox input:checked + * > .checkbox__trigger.--radio {
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='9.00136' cy='9.00038' r='8.28261' fill='%230A1C61' stroke='%230A1C61'/%3E%3C/svg%3E");
+}

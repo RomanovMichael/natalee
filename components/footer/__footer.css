@@ -1,0 +1,30 @@
+.policy-btn  {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: red;
+}
+
+.footer {
+    background-color: #222;
+
+}
+
+.footer__side-copyright {
+    color: var(--color__white);
+    opacity: .64;
+    
+}
+
+.footer__side-policy {
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .footer__container {
+        justify-content: center !important;
+    }
+
+    .footer__side-policy,.footer__side-copyright {
+        text-align: center;
+    }
+}

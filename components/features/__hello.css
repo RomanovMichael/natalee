@@ -1,0 +1,27 @@
+.hello {
+    position: relative;
+    background-color: hsl(var(--hue),10%,20%);
+}
+
+.hello__container {
+    /* min-height: 75vh; */
+}
+
+.hello__title {
+    color: var(--color__white);
+}
+
+.hello__title span { 
+    opacity: 0.4;
+}
+
+.mock_sec { 
+    /* height: 100vh; */
+}
+
+.mock_sec.--dark { 
+    background-color: var(--color__dark);
+}
+.mock_sec.--white { 
+    background-color: var(--color__white);
+}
