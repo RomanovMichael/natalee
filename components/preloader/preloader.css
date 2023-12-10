@@ -86,14 +86,15 @@
     font-weight: 500;
     z-index: 2;
     position: absolute;
-    bottom: 2rem;
-    right: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10rem;
 }
 
 
 @media screen and (max-width: 991px) {  
     .preloader__percents {
-        bottom: 2.5rem;
+        /* bottom: 2.5rem; */
         /* bottom: 0; */
     }
 }
