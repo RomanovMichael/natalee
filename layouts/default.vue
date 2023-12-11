@@ -33,9 +33,13 @@ export default {
 
 <style>
 
-@media  screen and (max-width:991px) {
+@media screen and (max-width:991px) {
   .video-bg {
-    display: none;
+    display: none !important; 
+  }
+
+  .main-mask.--mob {
+    display: none !important;
   }
 }
 
