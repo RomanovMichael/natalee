@@ -3,7 +3,7 @@
     <Preloader :critical="true"/>
     <div class="main-mask__wrap">
       <div class="main-mask --mob">
-        <video muted autoplay loop playsinline webkit-playsinline>
+        <video muted autoplay loop playsinline webkit-playsinline controls="false">
           <source src="/mbbg.mp4" />
         </video>
       </div>
