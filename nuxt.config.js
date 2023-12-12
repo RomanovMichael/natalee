@@ -34,7 +34,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/image',
-    'nuxt-gsap-module'
+    'nuxt-gsap-module',
     //  "@nuxtjs/svg"
   ],
 
@@ -44,6 +44,8 @@ export default {
     '@ax2/lozad-module',
     '@nuxtjs/axios',
     '@nuxtjs/svg',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
   image: {
     // скорректировать для lozad
