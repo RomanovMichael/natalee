@@ -15,13 +15,8 @@
 </template>
 
 <script>
-// import Vue from 'vue'
-// var VueScrollTo = require('vue-scrollto');
-// Vue.use(VueScrollTo)
-// import GSAPScrollSmoother from "~/components/GSAPScrollSmoother";
 
 export default {
-  // GSAPScrollSmoother,
   mounted() {
     window.addEventListener('resize', () => {
       let vh = window.innerHeight * 0.01;

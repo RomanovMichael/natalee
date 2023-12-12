@@ -1,5 +1,4 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Romanova Permanent Make Up',
     htmlAttrs: {
@@ -15,33 +14,21 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
     ]
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // 'swiper/swiper-bundle.min.css',
     // '@fancyapps/ui/dist/fancybox.css',
     'animate.css',
     '~/assets/css/atoms/__atoms.css'
   ],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
   target: 'static',
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/image',
     'nuxt-gsap-module',
-    //  "@nuxtjs/svg"
   ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
     '@ax2/lozad-module',
     '@nuxtjs/axios',
     '@nuxtjs/svg',
@@ -66,14 +53,11 @@ export default {
     observer: true,
     polyfill: true,
   },
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
   },
   sitemap: {
-    hostname: 'https://chessclub.ae/',
+    hostname: 'https://nataleeromanova.vercel.app/',
     path: '/sitemap.xml',
     sitemaps: [
       {
@@ -99,9 +83,6 @@ export default {
   },
   gsap: {
     clubPlugins: {
-      // scrollSmoother: true,
-      // drawSVG: true,
-      // splitText: true,
     },
     extraPlugins: {
       scrollTo: true,
@@ -162,8 +143,6 @@ export default {
 			this.$nuxt.$emit('reset-scroll');
 		}
 	},
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
 }

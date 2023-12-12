@@ -26,23 +26,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="questions__list-col --right">
-                    <!-- <div :class="{'is-open' : isOpen.includes(item.id)}" class="questions__item tile-min tile" v-for="(item, index) in questions.rightColQuestionsArr" :key="index">
-                        <div v-on:click="openMenu(item.id)" class="questions__item-clicker flex --just-space --align-center">
-                            <div class="questions__item-text col --auto" v-if="item.question" v-html="item.question"></div>
-                            <div class="questions__item-btn"></div>
-                        </div>
-                        <div class="questions__item-dropdown">
-                            <div class="questions__item-dropdown-inner p --l" v-if="item.answer" v-html="item.answer"></div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="questions__lastitem-wrap flex --align-center --just-stretch">
-                        <div class="questions__lastitem flex --just-space --align-center">
-                            <div class="questions__lastitem-title"><span>У вас есть вопрос,</span> ответ на который вы не нашли у нас на сайте?</div>
-                            <div v-on:click="openPopup('callback')"  class="questions__lastitem-btn btn --fill-1">Задать вопрос</div>
-                        </div>
-                    </div> -->
-                </div>
             </div>
         </div>
     </div>

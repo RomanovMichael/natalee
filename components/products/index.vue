@@ -2,9 +2,6 @@
     <section class="products pt-80" id="products">
         <div class="products__container center-wrap">
             <div class="products__head">
-                <!-- <div class="divider">
-                    <div class="divider__line center-wrap"></div>
-                </div> -->
                 <h2 class="products__title mt-16">Услуги и цены</h2>
             </div>
             <div class="products__list grid --temp-col-3 --gap-24 mt-40" >

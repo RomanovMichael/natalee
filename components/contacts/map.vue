@@ -1,7 +1,7 @@
 <template>
 	<div class="contacts-map">
 		<div class="contacts-map___inner">
-			<iframe class="contacts-map__iframe lazy" data-src="/map.html"></iframe>
+			<iframe title="Карта" class="contacts-map__iframe lazy" data-src="/map.html"></iframe>
 		</div>
 	</div>
 </template>

@@ -39,31 +39,6 @@ export default {
         ease: "power4.out",
       });
     },
-    splitText() {
-      const tl = this.$gsap.timeline();
-
-      tl.to(".preloader__title", {
-        delay: 1,
-        duration: 0.375,
-        yPercent: -100,
-        ease: "power4.out",
-      }).fromTo(
-        ".preloader__subtitle",
-        {
-          duration: 1,
-          yPercent: 100,
-        },
-        {
-          yPercent: -100,
-        },
-        1.1
-      );
-      // .to('.preloader__title-wrap', {
-      //     xPercent: -13,
-      //     delay: 1,
-      //     duration: 1.125
-      // })
-    },
     fade() {
       this.$gsap.timeline().to(".preloader", {
         // delay: 100,
@@ -96,8 +71,6 @@ export default {
   mounted() {
     this.preloaderProgress();
     this.splitText();
-    // this.animationFadeIn('.preloader__bounce', 1.3)
-    // this.animationFadeOut('.preloader__bounce', 3.5)
     this.fade();
   },
 };

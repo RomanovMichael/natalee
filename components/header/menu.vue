@@ -23,7 +23,10 @@
               <div class="full-menu__section-link" @click="scrollTo('about')">
                 Обо мне
               </div>
-              <div class="full-menu__section-link" @click="scrollTo('products')">
+              <div
+                class="full-menu__section-link"
+                @click="scrollTo('products')"
+              >
                 Услуги и цены
               </div>
               <div class="full-menu__section-link" @click="scrollTo('FAQ')">
@@ -38,29 +41,29 @@
             </div>
           </transition>
         </div>
-                      <div class="full-menu__socials flex --align-center --gap-24">
-                <a
-                  target="_blank"
-                  href="https://vk.com/natalee.brows"
-                  class="full-menu__socials-item"
-                >
-                  <VkSvg />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://t.me/nataleeroman"
-                  class="full-menu__socials-item"
-                >
-                  <TgSvg />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=79267030363&text=Здравствуйте, Натали!"
-                  class="full-menu__socials-item"
-                >
-                  <WhaSvg />
-                </a>
-              </div>
+        <div class="full-menu__socials flex --align-center --gap-24">
+          <a
+            target="_blank"
+            href="https://vk.com/natalee.brows"
+            class="full-menu__socials-item"
+          >
+            <VkSvg />
+          </a>
+          <a
+            target="_blank"
+            href="https://t.me/nataleeroman"
+            class="full-menu__socials-item"
+          >
+            <TgSvg />
+          </a>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=79267030363&text=Здравствуйте, Натали!"
+            class="full-menu__socials-item"
+          >
+            <WhaSvg />
+          </a>
+        </div>
       </div>
     </transition>
     <!-- <transition v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave" v-bind:css="false">
