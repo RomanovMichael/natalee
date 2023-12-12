@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <!-- <Preloader :critical="true"/> -->
+    <Preloader :critical="true"/>
     <div class="main-mask__wrap">
       <div class="main-mask --mob">
         <video class="video-bg" autoplay muted loop playsinline webkit-playsinline controls="false">
