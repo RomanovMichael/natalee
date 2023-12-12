@@ -4,52 +4,68 @@
       <div class="page__wrap">
         <div class="page__head --contacts-page">
           <div class="contacts__content --border flex --just-space mt-56 pt-16">
-            <div class="contacts__info col --4">
-              <div class="contacts__title --main contacts__title--small mr-40 h3">
-                Контакты
-              </div>
-              <div class="contacts__item">
-                <div class="contacts__image">
-                  <div class="contacts__image-thumb --marker"></div>
+            <div
+              class="contacts__info-wrap flex --direction-column --just-space"
+            >
+              <div class="contacts__info col --4">
+                <div
+                  class="contacts__title --main contacts__title--small mr-40 h3"
+                >
+                  Контакты
                 </div>
-                <div class="contacts__data ml-32">
-                  <div class="contacts__item-title">Адрес:</div>
-                  <div class="contacts__item-desc p --l">
-                    <span
-                      >Cимферополь, Линейная улица,<br />
-                      д. 2, этаж 2, каб. 220</span
-                    >
+                <div class="contacts__item">
+                  <div class="contacts__image">
+                    <div class="contacts__image-thumb --marker"></div>
+                  </div>
+                  <div class="contacts__data ml-32">
+                    <div class="contacts__item-title">Адрес:</div>
+                    <div class="contacts__item-desc p --l">
+                      <span
+                        >Cимферополь, Линейная улица,<br />
+                        д. 2, этаж 2, каб. 220</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__item mt-24">
+                  <div class="contacts__image">
+                    <div class="contacts__image-thumb --phone"></div>
+                  </div>
+                  <div class="contacts__data ml-32">
+                    <div class="contacts__item-title">Телефон:</div>
+                    <div class="contacts__item-wrap flex --align-center">
+                      <a
+                        href="tel:+79786039342"
+                        class="contacts__item-desc link --color-white --tel h4"
+                        >+7 (978) 603 93 42</a
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="contacts__item mt-24">
-                <div class="contacts__image">
-                  <div class="contacts__image-thumb --phone"></div>
-                </div>
-                <div class="contacts__data ml-32">
-                  <div class="contacts__item-title">Телефон:</div>
-                  <div class="contacts__item-wrap flex --align-center">
-                    <a
-                      href="tel:+79786039342"
-                      class="contacts__item-desc link --color-white --tel h4">+7 (978) 603 93 42</a
-                    >
-                  </div>
-                </div>
+              <div class="contacts__socials flex --align-center --gap-24">
+                <a
+                  target="_blank"
+                  href="https://vk.com/natalee.brows"
+                  class="full-menu__socials-item link"
+                >
+                  <VkSvg />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://t.me/nataleeroman"
+                  class="full-menu__socials-item link"
+                >
+                  <TgSvg />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=79267030363&text=Здравствуйте, Натали!"
+                  class="full-menu__socials-item link"
+                >
+                  <WhaSvg />
+                </a>
               </div>
-              <!-- <div class="contacts__item mt-24">
-                <div class="contacts__image">
-                  <div class="contacts__image-thumb --mail"></div>
-                </div>
-                <div class="contacts__data ml-32">
-                  <div class="contacts__item-title">E-mail</div>
-                  <a
-                    href="mailto:natalee@xample.ru"
-                    target="_blank"
-                    class="contacts__item-desc"
-                    ><h4 class="mt-0 mb-0">info@natalee.ru</h4></a
-                  >
-                </div>
-              </div> -->
             </div>
             <div class="contacts__map --no-border col --6">
               <div class="content__map-head flex --just-end --align-center">
@@ -86,7 +102,16 @@
 </template>
     
 <script>
-export default {};
+import TgSvg from "~/assets/img/svg/tg.svg?inline";
+import WhaSvg from "~/assets/img/svg/whatsappIcon.svg?inline";
+import VkSvg from "~/assets/img/svg/vk.svg?inline";
+export default {
+  components: {
+    WhaSvg,
+    VkSvg,
+    TgSvg,
+  },
+};
 </script>
 
 <style src="~/components/contacts/__contacts.css" lang="css"></style>
