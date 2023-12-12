@@ -46,6 +46,7 @@
             target="_blank"
             href="https://vk.com/natalee.brows"
             class="full-menu__socials-item"
+            aria-label="Ccылка на Вконтакте"
           >
             <VkSvg />
           </a>
@@ -53,6 +54,7 @@
             target="_blank"
             href="https://t.me/nataleeroman"
             class="full-menu__socials-item"
+            aria-label="Ccылка на Telegram"
           >
             <TgSvg />
           </a>
@@ -60,15 +62,13 @@
             target="_blank"
             href="https://api.whatsapp.com/send?phone=79267030363&text=Здравствуйте, Натали!"
             class="full-menu__socials-item"
+            aria-label="Ccылка на WhatsApp"
           >
             <WhaSvg />
           </a>
         </div>
       </div>
     </transition>
-    <!-- <transition v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave" v-bind:css="false">
-            <div v-show="($store.state.menu.is_open == true)" class="full-menu__decore flex --align-end --span-6"></div>
-        </transition> -->
   </div>
 </template>
 <script>

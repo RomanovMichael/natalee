@@ -48,6 +48,7 @@
                   target="_blank"
                   href="https://vk.com/natalee.brows"
                   class="full-menu__socials-item link"
+                  aria-label="Ccылка на Вконтакте"
                 >
                   <VkSvg />
                 </a>
@@ -55,6 +56,7 @@
                   target="_blank"
                   href="https://t.me/nataleeroman"
                   class="full-menu__socials-item link"
+                  aria-label="Ccылка на Телеграм"
                 >
                   <TgSvg />
                 </a>
@@ -62,6 +64,7 @@
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=79267030363&text=Здравствуйте, Натали!"
                   class="full-menu__socials-item link"
+                  aria-label="Ccылка на WhatsApp"
                 >
                   <WhaSvg />
                 </a>

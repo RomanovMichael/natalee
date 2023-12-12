@@ -70,7 +70,6 @@ export default {
   },
   mounted() {
     this.preloaderProgress();
-    this.splitText();
     this.fade();
   },
 };
