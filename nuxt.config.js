@@ -30,6 +30,7 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
+  target: 'static',
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -70,6 +71,31 @@ export default {
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
+  },
+  sitemap: {
+    hostname: 'https://chessclub.ae/',
+    path: '/sitemap.xml',
+    sitemaps: [
+      {
+        path: '/sitemap.xml',
+        changefreq: 'weekly',
+        lastmod: new Date(),
+        exclude: ['/'],
+        filter ({ routes, options}) {
+          return routes.map(route => {
+
+            if (smMapping[route.path]) {
+              if (smMapping[route.path][0]) route.priority = smMapping[route.path][0];
+              if (smMapping[route.path][1]) route.lastmod = smMapping[route.path][1];
+            }
+            
+            route.changefreq = 'weekly';
+            
+            return route
+          })
+        }
+      }
+    ]
   },
   gsap: {
     clubPlugins: {
