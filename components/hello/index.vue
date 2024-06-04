@@ -77,7 +77,7 @@
 
       <a
         target="_blank"
-        href="https://t.me/nataleeroman"
+        href="https://t.me/nataleeromanova"
         class="hello__btn flex --align-center --just-center"
       >
         <span>Записаться</span>
